@@ -18,6 +18,7 @@ import { bounceInUp,bounce, slideInLeft,fadeIn, slideInDown, bounceInDown } from
   ],
 })
 export class ProjectsComponent implements OnInit {
+  bounceInUp : any;
 
   constructor() { }
 

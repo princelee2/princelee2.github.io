@@ -16,6 +16,7 @@ import { bounce, slideInRight,fadeIn,flash} from 'ng-animate';
   ],
 })
 export class AppfooterComponent implements OnInit {
+  flash : any;
 
   constructor() { }
 

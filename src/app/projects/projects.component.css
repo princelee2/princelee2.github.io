@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
 h2:after{
     width: 100px;
     height:2px;
@@ -40,46 +40,49 @@ h2:after{
     height: 230px;
     border-left:4px #9e3e06f5  solid;
 }
-.portfolio small{
+.left h5,.right h5{
     font-size: 18px;
-    margin-left: 5%;
+    margin-left: 30px;
  
 }
 .left h3{
-    font-size: 40px;
-    margin-left: 22px;
-    padding-top: 1em;
+    font-size: 35px;
+    margin-left: 90px;
+    padding-top: 40px
 }
 .left p{
-    margin-left: 28px;
-   padding-top: 3em; 
+    margin-left: 90px;
+   padding-top: 43px; 
     color: #494947;
     font-size: 13px;
 }
 
 .center h3{
-    font-size: 40px;
-    margin-left: 22px;
-    padding-top: 1em;
+    font-size: 35px;
+    margin-left: 90px;
+    padding-top: 40px;
 }
 a{
     text-decoration: none;
     color: #494947;
 }
 .center p{
-    margin-left: 28px;
-    padding-top: 3em; 
+    margin-left: 90px;
+    padding-top: 43px; 
      color: #494947;
      font-size: 13px;
 }
+.center h5{
+    margin-left: 60px
+}
 .right h3{
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 22px;
-    padding-top: 1em;
+    padding-top: 40px;
 }
 .right p{
-    margin-left: 28px;
-    padding-top: 3em; 
+    margin-left: 100px;
+    padding-top: 43px; 
      color: #494947;
      font-size: 13px;
 }
@@ -91,8 +94,100 @@ transition: all 0.5s ease-in;
 
     /****MEDIA QUERIES*********/
     @media screen and (max-width:320px){
-      
-        .left h3,.center h3,.right h3{
-            font-size: 28px
+        .portfolio .left{
+            margin: 18px 20px auto;
+            width: 270px
         }
-    }
+        .portfolio .center{
+            margin: 18px 20px auto;
+            width: 270px
+        }
+        .portfolio .right{
+            margin: 18px 20px auto;
+            width: 270px
+        }
+        .left h3{
+    margin-right: 18px;
+    font-size: 30px;
+    margin-left: 65px
+        }
+        .left p,.left h5{
+            margin-left: 40px
+        }
+        .center h3{
+            margin-right: 18px;
+    font-size: 30px;
+    margin-left: 65px
+        }
+        .center p,.right p{
+           margin-left: 50px
+        }
+       
+        .right h5{
+    margin-right: 18px
+        }
+        .right h3{
+                font-size: 25px;
+                text-align: center
+            }
+            .right h5{
+                margin-right: 18px
+                    }
+        }
+        @media screen and (max-width:375px){
+            .portfolio .left{
+                margin: 18px 20px auto;
+                width: 270px
+            }
+            .portfolio .center{
+                margin: 18px 20px auto;
+                width: 270px
+            }
+            .portfolio .right{
+                margin: 18px 20px auto;
+                width: 270px
+            }
+            .left h3{
+        margin-right: 18px;
+        font-size: 30px;
+        margin-left: 65px
+            }
+            .left p,.left h5{
+                margin-left: 40px
+            }
+            .center h3{
+                margin-right: 18px;
+        font-size: 30px;
+        margin-left: 65px
+            }
+            .center p,.right p{
+               margin-left: 50px
+            }
+           
+            .right h5{
+        margin-right: 18px
+            }
+            .right h3{
+                    font-size: 25px;
+                    text-align: center
+                }
+                .right h5{
+                    margin-right: 18px
+                        }
+            }
+            @media screen and (max-width:768px){
+           .portfolio .left,.portfolio .center,.portfolio .right{
+               margin: 20px 20px auto;
+               height: 250px;
+               width: 230px
+           }
+           .left h3,.center h3,.right h3{
+                font-size: 28px;
+                margin-left: 38px;
+                text-align: center
+           }
+           .left h5,.center h5,.right h5{
+               text-align: center;
+               margin-left: 4px
+           }
+                }

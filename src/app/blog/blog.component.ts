@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, transition, useAnimation } from '@angular/animations';
-import { bounceInUp,bounceInDown, slideInRight,fadeIn, slideInDown } from 'ng-animate';
+import { bounceInUp,bounceInDown, slideInRight,fadeIn } from 'ng-animate';
 @Component({
   selector: 'app-blog',
   templateUrl: './blog.component.html',
@@ -16,6 +16,7 @@ import { bounceInUp,bounceInDown, slideInRight,fadeIn, slideInDown } from 'ng-an
   ],
 })
 export class BlogComponent implements OnInit {
+  bounceInUp : any;
 
   constructor() { }
 

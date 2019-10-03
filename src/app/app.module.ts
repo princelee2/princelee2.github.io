@@ -12,7 +12,6 @@ import { ContactComponent } from './contact/contact.component';
 import { AppnavComponent } from './appnav/appnav.component';
 import { AppfooterComponent } from './appfooter/appfooter.component';
 import { ProjectsComponent } from './projects/projects.component';
-
 const routes: Routes =[
   {path: '', component : HomepageComponent},
   {path: 'homepage', component : HomepageComponent},
@@ -30,7 +29,8 @@ const routes: Routes =[
     ContactComponent,
     AppnavComponent,
     AppfooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    
   ],
   exports: [ RouterModule,BrowserAnimationsModule]
   ,
@@ -39,8 +39,7 @@ const routes: Routes =[
     BrowserModule,
     OwlModule,
     BrowserAnimationsModule,
-    // NgwWowModule,
-    AngularFontAwesomeModule,
+     AngularFontAwesomeModule,
     RouterModule.forRoot(routes)
   ],
   providers: [],

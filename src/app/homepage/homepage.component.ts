@@ -18,7 +18,7 @@ import { bounceInUp,bounceInDown, slideInRight,fadeIn, slideInDown } from 'ng-an
   ],
 })
 export class HomepageComponent implements OnInit {
- 
+ bounceInUp : any;
   constructor() { }
 
   ngOnInit() {

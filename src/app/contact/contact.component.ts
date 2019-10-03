@@ -17,6 +17,7 @@ import { bounceInUp,bounce, slideInLeft,fadeIn, slideInDown, bounceInDown } from
   ],
 })
 export class ContactComponent implements OnInit {
+  bounceInUp : any;
 
   constructor() { }
 
